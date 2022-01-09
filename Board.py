@@ -1,9 +1,9 @@
 from Plant import Plant
 import Constants
+
 import random
-
-
 import curses
+from time import sleep
 
 class Tile:
 	plant = None

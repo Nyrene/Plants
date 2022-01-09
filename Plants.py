@@ -49,9 +49,13 @@ for row in range(Constants.BOARD_ROWS):
 """
 board.stdscr = stdscr
 stdscr.addstr("Starting board...")
+stdscr.addstr("\nMax color pairs is: " + str(curses.COLOR_PAIRS))
+stdscr.refresh()
 sleep(3)
 board.display()
 board.run(10)
+stdscr.addstr("\nDone!")
+stdscr.refresh()
 
 #################################################
 

@@ -16,7 +16,7 @@ class Plant:
 	image = "@"
 
 	#curses color curses.init_pair(1, curses.COLOR_RED, curses.COLOR_WHITE)
-	color = curses.COLOR_ORANGE # V.02
+	color = curses.COLOR_RED # V.02
 	coords = Coordinates(0, 0)
 
 
